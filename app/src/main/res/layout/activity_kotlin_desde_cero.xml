@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_app"
+    android:fitsSystemWindows="true"
+    tools:context=".Menu.inicio.kotlinDesdeCero">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appMasaCorporal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/background_component"
+        android:text="Masa Corporal"
+        android:textColor="#EDEDED"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appNotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/background_component"
+        android:text="Notas"
+        android:textColor="#EDEDED"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/background_component"
+        android:text="Calculadora"
+        android:textColor="#EDEDED"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/background_component"
+        android:text="Mapa"
+        android:textColor="#EDEDED"
+        android:textSize="20sp" />
+
+</LinearLayout>

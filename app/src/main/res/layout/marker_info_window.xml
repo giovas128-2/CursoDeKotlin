@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- Columna izquierda: Título + Imagen -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Lugar"
+            android:textColor="@color/maps_background_card" />
+
+        <ImageView
+            android:id="@+id/ivMarkerImage"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="6dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Imagen del lugar" />
+    </LinearLayout>
+
+    <!-- Columna derecha: Descripción con scroll -->
+    <ScrollView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:maxHeight="150dp"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Aquí va la descripción muy larga del lugar. Si se pasa de 150dp de alto, podrás deslizar con scroll para leer el resto sin que se deforme todo el popup."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/maps_background_disabled"
+            android:scrollHorizontally="false"
+            android:singleLine="false"
+            android:ellipsize="none"
+            android:inputType="textMultiLine"/>
+    </ScrollView>
+</LinearLayout>

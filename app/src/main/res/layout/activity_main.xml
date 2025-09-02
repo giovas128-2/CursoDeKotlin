@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Menu.Maps.MainActivity">
+
+    <!-- Mapa OSM -->
+    <org.osmdroid.views.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Barra de búsqueda con autocompletado -->
+    <AutoCompleteTextView
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="12dp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:completionThreshold="1"
+        android:inputType="text"
+        android:background="@drawable/rounded_white_bg"
+        android:hint="Buscar lugar..."/>
+
+    <!-- Botón para agregar lugar -->
+    <Button
+        android:id="@+id/btnAddPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="16dp"
+        android:text="Agregar Lugar"
+        android:backgroundTint="@color/maps_accent"
+        android:textColor="@color/white"/>
+    <!-- Botón para eliminar lugar -->
+    <Button
+        android:id="@+id/btnDeletePlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toStartOf="@id/btnAddPlace"
+        android:text="Eliminar Lugar"
+        android:backgroundTint="@color/maps_delete_tasks"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

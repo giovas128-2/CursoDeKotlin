@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:background="@color/todo_background_todo_app"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etTask"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:layout_height="wrap_content"
+        android:hint="@string/todo_dialog_add_category"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/rgCategoriesColors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_color_category_white"
+            android:checked="true"
+            android:textColor="@color/white"
+            android:buttonTint="@color/todo_white_category"/>
+
+        <RadioButton
+            android:id="@+id/rbBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_color_category_black"
+            android:textColor="@color/white"
+            android:buttonTint="@color/todo_black_category"/>
+
+        <RadioButton
+            android:id="@+id/rbPurple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_color_category_purple"
+            android:textColor="@color/white"
+            android:buttonTint="@color/todo_purple_category"/>
+
+        <RadioButton
+            android:id="@+id/rbPink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_color_category_pink"
+            android:textColor="@color/white"
+            android:buttonTint="@color/todo_pink_category"/>
+
+        <RadioButton
+            android:id="@+id/rbBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_color_category_blue"
+            android:textColor="@color/white"
+            android:buttonTint="@color/todo_blue_category"/>
+        <RadioButton
+            android:id="@+id/rbGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_color_category_green"
+            android:textColor="@color/white"
+            android:buttonTint="@color/todo_green_category"/>
+        <RadioButton
+            android:id="@+id/rbYellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_color_category_yellow"
+            android:textColor="@color/white"
+            android:buttonTint="@color/todo_yellow_category"/>
+        <RadioButton
+            android:id="@+id/rbOrange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_color_category_orange"
+            android:textColor="@color/white"
+            android:buttonTint="@color/todo_orange_category"/>
+        <RadioButton
+            android:id="@+id/rbRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_color_category_red"
+            android:textColor="@color/white"
+            android:buttonTint="@color/todo_red_category"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_color_category_button"
+        android:backgroundTint="@color/todo_accent"/>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#00B307</color>
+    <color name="purple_500">#078700</color>
+    <color name="purple_700">#27B300</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <!-- IMC app -->
+    <color name="background_component">#1D1E33</color>
+    <color name="background_component_selected">#FF111328</color>
+    <color name="background_app">#0E0B20</color>
+    <color name="background_button">#EB1555</color>
+    <color name="title_text">#FF8D8E98</color>
+    <color name="background_fab">#078700</color>
+
+    <color name="bajoDePeso">#00D0BF</color>
+    <color name="normal">#08CA00</color>
+    <color name="sobrepeso">#D8DB00</color>
+    <color name="obesidad">#D70000</color>
+
+    <!-- Notes app -->
+    <color name="todo_background_disabled">#3A3A3A</color>
+    <color name="todo_background_card">#2A2A2A</color>
+    <color name="todo_background_selected_category">#787878</color>
+    <color name="todo_background_todo_app">#000000</color>
+    <color name="todo_subtitle_text">#959595</color>
+    <color name="todo_accent">#0CAF00</color>
+    <color name="todo_delete_tasks">#FF2B2B</color>
+
+    <color name="todo_business_category">#FF9800</color>
+    <color name="todo_personal_category">#00BCD4</color>
+    <color name="todo_other_category">#4CAF50</color>
+    <color name="todo_other_category_highlight">#8C8C8C</color> <!-- o cualquier color llamativo -->
+    <color name="todo_background_other_category">#3A3A3A</color>
+
+    <color name="todo_white_category">#FFFFFF</color>
+    <color name="todo_blue_category">#2A63FF</color>
+    <color name="todo_green_category">#2DFF2D</color>
+    <color name="todo_yellow_category">#FFF436</color>
+    <color name="todo_red_category">#FF2B2B</color>
+    <color name="todo_purple_category">#9F15FF</color>
+    <color name="todo_orange_category">#FF7923</color>
+    <color name="todo_pink_category">#FF2BED</color>
+    <color name="todo_black_category">#090909</color>
+
+    <!-- Calculator app -->
+    <color name="calculator_background_disabled">#2C2C2C</color>
+    <color name="calculator_background_card">#1B1B1B</color>
+    <color name="calculator_background_selected_category">#787878</color>
+    <color name="calculator_background_todo_app">#000000</color>
+    <color name="calculator_subtitle_text">#959595</color>
+    <color name="calculator_accent">#04B300</color>
+    <color name="calculator_delete_tasks">#FF2B2B</color>
+
+    <!-- Maps app -->
+    <color name="maps_background_disabled">#2C2C2C</color>
+    <color name="maps_background_card">#1B1B1B</color>
+    <color name="maps_background_selected_category">#787878</color>
+    <color name="maps_background_todo_app">#000000</color>
+    <color name="maps_subtitle_text">#959595</color>
+    <color name="maps_accent">#04B300</color>
+    <color name="maps_delete_tasks">#FF2B2B</color>
+</resources>

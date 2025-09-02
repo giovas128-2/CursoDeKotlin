@@ -1,0 +1,54 @@
+<resources>
+    <!-- IMC app -->
+    <string name="app_name">Proyecto</string>
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="height">Altura</string>
+    <string name="peso">Peso</string>
+    <string name="edad">Edad</string>
+    <string name="calcular">Calcular</string>
+    <string name="stresult">Tu Resultado</string>
+    <string name="recalcular">Re-calcular</string>
+
+    <string name="error">Error</string>
+
+    <string name="titleBajoPeso">Peso por debajo</string>
+    <string name="descriptionBajoPeso">Estas por debajo de lo optimo para tu peso y altura</string>
+
+    <string name="titlePesoNormal">Normal</string>
+    <string name="descriptionPesoNormal">Estas en lo optimo para tu peso y altura</string>
+
+    <string name="titleSobrepeso">Sobrepeso</string>
+    <string name="descriptionSobrepeso">Estas por encima de lo optimo para tu peso y altura</string>
+
+    <string name="titleObesidad">Obesidad</string>
+    <string name="descriptionObesidad">Estas MUY por encima de lo optimo para tu peso y altura</string>
+
+
+    <!--Notes app -->
+    <string name="titleNotes">Notas</string>
+    <string name="categoriaNotes">Categoria</string>
+    <string name="tareasNotes">Tareas</string>
+
+    <string name="todo_dialog_add_task">Añade la tarea</string>
+    <string name="todo_dialog_add_category">Añade la categoria</string>
+
+    <string name="todo_dialog_category_business">Negocios</string>
+    <string name="todo_dialog_category_personal">Personal</string>
+    <string name="todo_dialog_category_other">Otros</string>
+    <string name="todo_dialog_category_button">Crear Tarea</string>
+    <string name="todo_dialog_category_button_delete">Eliminar Tarea</string>
+
+    <string name="todo_color_category_white">Blanco</string>
+    <string name="todo_color_category_red">Rojo</string>
+    <string name="todo_color_category_yellow">Amarillo</string>
+    <string name="todo_color_category_blue">Azul</string>
+    <string name="todo_color_category_green">Verde</string>
+    <string name="todo_color_category_purple">Morado</string>
+    <string name="todo_color_category_pink">Rosado</string>
+    <string name="todo_color_category_orange">Naranja</string>
+    <string name="todo_color_category_black">Negro</string>
+    <string name="todo_color_category_button">Crear Categoria</string>
+
+
+</resources>
